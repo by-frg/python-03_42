@@ -17,7 +17,7 @@ def gen_player_achievements() -> set[str]:
         'First Steps',
         'Sharp Mind'
         ]
-    elements: int = random.randint(5, len(l_achiev) - 1)
+    elements: int = random.randint(5, len(l_achiev) - 3)
     player_set: set[str] = set(random.sample(l_achiev, elements))
     return player_set
 
